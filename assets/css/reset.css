@@ -1,0 +1,36 @@
+/* Removing Margins and paddings */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Removing Margins and paddings */
+
+/* Importing Fonts */
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sofia Pro Regular'),
+    url('../fonts/Sofia\ Pro\ Regular\ Az.woff') format('woff');
+}
+/* Importing Fonts */
+
+/* 62.5% is telling that 1 rem is 10px */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sofia Pro Regular";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
