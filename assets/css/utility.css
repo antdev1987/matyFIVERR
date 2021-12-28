@@ -9,6 +9,11 @@
 
 .title {
   font-size: 12.4rem;
+  color: var(--primary);
+}
+
+.title span {
+  display: block;
 }
 
 .heading2 {
@@ -32,6 +37,18 @@
 
 .w-100 {
   width: 100%;
+}
+
+.txt-start {
+  text-align: start;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-end {
+  text-align: end;
 }
 
 /* Flex utilities */
