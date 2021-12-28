@@ -29,7 +29,50 @@
 
 /* Nav Finished */
 
+/* Header */
 .header {
   background: url(../media/hero.jpg) center center / cover;
   height: 100vh;
 }
+
+/* Events */
+.events {
+  margin-top: -25%;
+  padding-top: 15%;
+}
+
+.events__content {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.events__box--1 {
+  background: url(../media/image-1.jpg) center center / cover;
+}
+
+.events__box--2 {
+  background: url(../media/image-2.jpg) center center / cover;
+}
+
+.events__box--3 {
+  background: url(../media/image-3.jpg) center center / cover;
+}
+/* Events */
+
+/* Rent */
+
+.rent__box--1 {
+  background: url(../media/Rimage-1.jpg) center center / cover;
+}
+
+.rent__box--2 {
+  background: url(../media/Rimage-2.jpg) center center / cover;
+}
+
+.rent__box--3 {
+  background: url(../media/Rimage-3.jpg) center center / cover;
+}
+
+.rent__box--4 {
+  background: url(../media/Rimage-4.jpg) center center / cover;
+}
+/* Rent */

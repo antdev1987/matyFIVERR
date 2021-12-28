@@ -1,27 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 .title,
 .heading2,
-.heading3 {
-  font-family: 'Montserrat';
+.heading3,
+.btn {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: var(--primary);
 }
 
-.title {
-  font-size: 3rem;
+.title-section {
+  width: 50%;
+  border-bottom: .20px solid var(--accent);
+  display: inline-block;
 }
 
-.title span, .heading3 span {
+.title {
+  font-size: 3.5rem;
+  letter-spacing: 2rem;
+}
+
+.title span,
+.heading3 span {
   display: block;
 }
 
 .heading2 {
-  font-size: 6.8rem;
+  font-size: 4rem;
+  letter-spacing: .25rem;
 }
 
 .heading3 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
 }
 
 .bigParagraph {
@@ -51,6 +63,10 @@
   text-align: end;
 }
 
+.d-InBlo {
+  display: inline-block;
+}
+
 /* Flex utilities */
 .d-flex {
   display: flex;
@@ -67,11 +83,11 @@
 
 /* BTN utilities */
 .btn {
- font-size: 1.8rem;
- padding: 1rem 0;
- width: 15rem;
- text-align: center;
- display: inline-block;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 15rem;
+  text-align: center;
+  display: inline-block;
 }
 
 .btn--primary {
@@ -79,7 +95,32 @@
   color: var(--primary);
   background: var(--secondary);
 }
+
+.btn--primary:hover {
+  color: var(--accent);
+  background: var(--primary);
+}
+
+.btn--secondary {
+  color: var(--accent);
+  background: var(--primary);
+}
+
+.btn--secondary:hover {
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+.btn:active {
+  background: var(--accent);
+  color: var(--primary);
+}
 /* BTN utilities */
+
+/* color */
+.color-W {
+  color: var(--primary);
+}
 
 /* Gap utilities */
 .g-1 {
@@ -150,5 +191,53 @@
 
 .pX-6 {
   padding: 0 6rem;
+}
+
+.pXY-1 {
+  padding: 1rem;
+}
+
+.pXY-2 {
+  padding: 2rem;
+}
+
+.pXY-3 {
+  padding: 3rem;
+}
+
+.pXY-4 {
+  padding: 4rem;
+}
+
+.pXY-5 {
+  padding: 5rem;
+}
+
+.pXY-6 {
+  padding: 6rem;
+}
+
+.pR-1 {
+  padding-right:1rem;
+}
+
+.pR-2 {
+  padding-right:2rem;
+}
+
+.pR-3 {
+  padding-right:3rem;
+}
+
+.pR-4 {
+  padding-right:4rem;
+}
+
+.pR-5 {
+  padding-right:5rem;
+}
+
+.pR-6 {
+  padding-right:6rem;
 }
 /* Padding utilities */
