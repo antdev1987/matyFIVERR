@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.title,
+.heading2,
+.heading3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.title {
+  font-size: 12.4rem;
+}
+
+.heading2 {
+  font-size: 6.8rem;
+}
+
+.heading3 {
+  font-size: 4.2rem;
+}
+
+.bigParagraph {
+  font-weight: 400;
+  font-size: 4.4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Flex utilities */
+.d-flex {
+  display: flex;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+/* Flex utilities */
+
+/* Gap utilities */
+.g-1 {
+  gap: 1rem;
+}
+
+.g-2 {
+  gap: 2rem;
+}
+
+.g-3 {
+  gap: 3rem;
+}
+
+.g-4 {
+  gap: 4rem;
+}
+
+.g-5 {
+  gap: 5rem;
+}
+/* Gap utilities */
+
+/* Padding utilities */
+.pY-1 {
+  padding: 1rem 0;
+}
+
+.pY-2 {
+  padding: 2rem 0;
+}
+
+.pY-3 {
+  padding: 3rem 0;
+}
+
+.pY-4 {
+  padding: 4rem 0;
+}
+
+.pY-5 {
+  padding: 5rem 0;
+}
+
+.pY-6 {
+  padding: 6rem 0;
+}
+
+.pX-1 {
+  padding: 0 1rem;
+}
+
+.pX-2 {
+  padding: 0 2rem;
+}
+
+.pX-3 {
+  padding: 0 3rem;
+}
+
+.pX-4 {
+  padding: 0 4rem;
+}
+
+.pX-5 {
+  padding: 0 5rem;
+}
+
+.pX-6 {
+  padding: 0 6rem;
+}
+/* Padding utilities */

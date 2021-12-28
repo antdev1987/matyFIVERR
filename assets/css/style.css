@@ -1,0 +1,35 @@
+.nav {
+  border-bottom: 1px solid var(--primary);
+}
+
+.nav img {
+  height: 5rem;
+}
+
+.nav ul li a {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.nav .active {
+  position: relative; /*Telling the position absolute who is his father*/
+}
+
+.nav .active::after {
+  content: '';
+  position: absolute; /*son of active*/
+  bottom: -2rem;
+  left: 50%; /*center*/
+  transform: translate(-50%, -50%); /*center*/
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: var(--accent);
+}
+
+/* Nav Finished */
+
+.header {
+  background: url(../media/hero.jpg) center center / cover;
+  height: 100vh;
+}
