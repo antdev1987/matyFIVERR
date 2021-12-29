@@ -56,6 +56,22 @@
 .events__box--3 {
   background: url(../media/image-3.jpg) center center / cover;
 }
+
+.events__box--4 {
+  background: url(../media/image-4.jpg) center center / cover;
+}
+
+.events__box--5 {
+  background: url(../media/image-5.jpg) center center / cover;
+}
+
+.events__box--6 {
+  background: url(../media/image-6.jpg) center center / cover;
+}
+
+.events__box--7 {
+  background: url(../media/image-7.jpg) center center / cover;
+}
 /* Events */
 
 /* Rent */
