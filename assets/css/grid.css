@@ -12,7 +12,7 @@
   grid-column: 1 / -1;
 }
 
-.grid .content__text{
+.grid .content__text {
   text-transform: uppercase;
 }
 
@@ -22,6 +22,24 @@
   bottom: 1rem;
 }
 
+/* Grid about system */
+.grid-about {
+  display: grid;
+  grid-template-columns: 50rem 40rem;
+  grid-auto-rows: 50rem;
+  justify-content: center;
+}
+
+.grid-about .img-box {
+  align-self: end;
+  height: 80%;
+}
+
+.grid-about .img-box img {
+  height: 100%;
+  object-fit: cover;
+}
+/* Grid about system */
 
 .grid-contact {
   display: grid;

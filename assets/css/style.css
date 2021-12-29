@@ -93,6 +93,18 @@
 }
 /* Rent */
 
+/* About */
+.header-about .grid {
+  grid-template-rows: 40rem;
+}
+
+.header-about .title {
+  letter-spacing: 0;
+  font-size: 7rem;
+}
+
+/* About */
+
 /* Contact */
 
 .contact .form-box input,
