@@ -105,6 +105,35 @@
 
 /* About */
 
+/* what we do */
+.weDo .box div {
+  background: #2698fbb0;
+  height: 100%;
+  opacity: 0;
+  text-transform: uppercase;
+}
+
+.weDo .box:hover div {
+  opacity: 1;
+}
+
+.weDo .box--1 {
+  background: url(../media/AbImage-1.jpg) center center / cover;
+}
+
+.weDo .box--3 {
+  background: url(../media/AbImage-3.jpg) center center / cover;
+}
+
+.weDo .box--5 {
+  background: url(../media/AbImage-5.jpg) center center / cover;
+}
+
+.weDo .box--6 {
+  background: url(../media/AbImage-6.jpg) center center / cover;
+}
+/* what we do */
+
 /* Contact */
 
 .contact .form-box input,

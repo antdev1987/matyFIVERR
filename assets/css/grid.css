@@ -39,6 +39,12 @@
   height: 100%;
   object-fit: cover;
 }
+
+.grid-3columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-auto-rows: 30rem;
+}
 /* Grid about system */
 
 .grid-contact {
