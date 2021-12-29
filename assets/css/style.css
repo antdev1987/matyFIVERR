@@ -93,6 +93,28 @@
 }
 /* Rent */
 
+/* Contact */
+
+.contact .form-box input,
+.contact .form-box textarea {
+  display: block;
+  height: 4rem;
+  padding: 0 2rem;
+}
+
+.contact .form-box textarea {
+  height: 20rem;
+  padding: 1rem 2rem;
+  resize: none;
+}
+
+.contact .info-box ul:first-child {
+  border-bottom: 1px solid var(--primary);
+  padding-bottom: 2rem;
+}
+
+/* Contact */
+
 /* Footer */
 
 .footer .img-box {
@@ -102,11 +124,6 @@
 .footer .search-box input {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-}
-
-.footer .search-box input:focus {
-  border: 1px solid var(--accent);
-  outline: none;
 }
 
 .footer .search-box .btn {

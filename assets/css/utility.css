@@ -6,11 +6,24 @@
 }
 
 .bg-dark::placeholder {
-  color: var(--primary)
+  color: var(--primary);
 }
 
 .outline {
   border: 1px solid;
+}
+
+.outline-complete {
+  border: 1px solid var(--primary);
+}
+
+.outline-red {
+  border: 1px solid var(--error);
+}
+
+.outline:focus {
+  border: 1px solid var(--accent);
+  outline: none;
 }
 
 .title,
@@ -260,3 +273,55 @@
   padding-right: 6rem;
 }
 /* Padding utilities */
+
+/* Margin utilities */
+
+.mY-1 {
+  margin: 1rem 0;
+}
+
+.mY-2 {
+  margin: 2rem 0;
+}
+
+.mY-3 {
+  margin: 3rem 0;
+}
+
+.mY-4 {
+  margin: 4rem 0;
+}
+
+.mY-5 {
+  margin: 5rem 0;
+}
+
+.mY-6 {
+  margin: 6rem 0;
+}
+
+
+.mX-1 {
+  margin: 0 1rem;
+}
+
+.mX-2 {
+  margin: 0 2rem;
+}
+
+.mX-3 {
+  margin: 0 3rem;
+}
+
+.mX-4 {
+  margin: 0 4rem;
+}
+
+.mX-5 {
+  margin: 0 5rem;
+}
+
+.mX-6 {
+  margin: 0 6rem;
+}
+/* Margin utilities */

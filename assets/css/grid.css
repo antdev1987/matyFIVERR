@@ -21,3 +21,9 @@
   right: 2rem;
   bottom: 1rem;
 }
+
+
+.grid-contact {
+  display: grid;
+  grid-template-columns: auto 70rem auto;
+}
