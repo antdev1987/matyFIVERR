@@ -23,9 +23,9 @@
   }
 
   .header .header__content {
-    text-align: center;
     height: 50%;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
   }
