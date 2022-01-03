@@ -76,19 +76,19 @@
 
 /* Rent */
 
-.rent__box--1 {
+.rent__box--0 {
   background: url(../media/Rimage-1.jpg) center center / cover;
 }
 
-.rent__box--2 {
+.rent__box--1 {
   background: url(../media/Rimage-2.jpg) center center / cover;
 }
 
-.rent__box--3 {
+.rent__box--2 {
   background: url(../media/Rimage-3.jpg) center center / cover;
 }
 
-.rent__box--4 {
+.rent__box--3 {
   background: url(../media/Rimage-4.jpg) center center / cover;
 }
 /* Rent */
@@ -159,6 +159,36 @@
 }
 
 /* Contact */
+
+/* Books */
+.books {
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  text-align: center;
+}
+
+.books:hover .list{
+  max-height: 50rem;
+}
+
+.books .list {
+  border: 1px solid transparent;
+  max-height: 0;
+  transition: max-height .50s ease-in-out;
+  overflow: hidden;
+}
+
+.books .button {
+  font-size: 2rem;
+  background: var(--accent);
+  border: none;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* Books */
 
 /* Footer */
 
