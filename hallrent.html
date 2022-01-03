@@ -15,11 +15,24 @@
     <link rel="stylesheet" href="assets/css/utility.css" />
     <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/screen.css">
-
+    <link rel="stylesheet" href="assets/css/screen.css" />
+    <link rel="stylesheet" href="assets/css/pop-up.css" />
+    <script src="assets/js/hallrent.js" defer></script>
+    <script src="assets/js/pop-up.js" defer></script>
     <title>Document</title>
   </head>
   <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <ul class="modal-text">
+
+        </ul>
+      </div>
+    </div>
+
     <!-- nav Start -->
     <nav class="nav">
       <div class="container d-flex align-center pY-2 g-4">
@@ -43,32 +56,7 @@
         <h2 class="heading2 title-section pX-6">Rent a hall</h2>
       </div>
       <div class="container">
-        <main class="pY-2 grid g-2 color-W">
-          <div class="rent__box--1 box pXY-2">
-            <h3 class="content__text heading3">thetunel</h3>
-            <div class="content__more">
-              <a class="color-W heading3" href="#">take a look ></a>
-            </div>
-          </div>
-          <div class="rent__box--2 box pXY-2">
-            <h3 class="content__text heading3">thelightroom</h3>
-            <div class="content__more">
-              <a class="color-W heading3" href="#">take a look ></a>
-            </div>
-          </div>
-          <div class="rent__box--3 box pXY-2">
-            <h3 class="content__text heading3">thewindowhall</h3>
-            <div class="content__more">
-              <a class="color-W heading3" href="#">take a look ></a>
-            </div>
-          </div>
-          <div class="rent__box--4 box pXY-2">
-            <h3 class="content__text heading3">thedabceroom</h3>
-            <div class="content__more">
-              <a class="color-W heading3" href="#">take a look ></a>
-            </div>
-          </div>
-        </main>
+        <main class="pY-2 grid g-2 color-W" id="rentHall"></main>
       </div>
     </section>
     <!-- 
