@@ -13,7 +13,7 @@ function listing(val) {
   console.log(val);
   val.map((item) => {
     let li = document.createElement('li');
-    li.innerHTML = `<li class="rent__box--${item} pXY-3">${information[item].title}</li>`;
+    li.innerHTML = `<div class="rent__box--${item} pXY-3">${information[item].title}</div>`;
 
     list.appendChild(li);
     console.log(item);
@@ -44,16 +44,28 @@ listing(allStorage());
 const inner = ({ title, idx }) => {
   txt.innerHTML = `
   <h2>${title}</h2>
-  <ul></ul>
+  <ul>
+  <li>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
+  </p>
+  </li>
+  <li>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
+  </p>
+  </li>
+  <li>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
+  </p>
+  </li>
+  </ul>
   <form>
-  <button type="submit" class="add">Book</button>
+  <button class="btn btn--primary mY-2 add" type="submit">Book</button>
   </form>
   `;
   document.querySelector('.add').onclick = () => {
-    localStorage.setItem(idx, idx);
+    localStorage.setItem(1, idx);
     const aray = allStorage();
     createli(idx);
-
   };
 };
 

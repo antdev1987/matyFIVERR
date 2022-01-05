@@ -164,23 +164,25 @@
 .books {
   position: fixed;
   bottom: 3rem;
-  right: 5rem;
+  right: 3rem;
   text-align: center;
+  width: 20rem;
 }
 
-.books:hover .list{
+.books:hover .list {
   max-height: 50rem;
 }
 
 .books .list {
   border: 1px solid transparent;
   max-height: 0;
-  transition: max-height .50s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
   overflow: hidden;
 }
 
 .books .button {
-  font-size: 2rem;
+  font-size: 1.4rem;
+  color: var(--primary);
   background: var(--accent);
   border: none;
   height: 5rem;
