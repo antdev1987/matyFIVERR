@@ -9,17 +9,6 @@ const information = [
   { title: 'THEDABCEROOM' },
 ];
 
-function listing(val) {
-  console.log(val);
-  val.map((item) => {
-    let li = document.createElement('li');
-    li.innerHTML = `<div class="rent__box--${item} pXY-3">${information[item].title}</div>`;
-
-    list.appendChild(li);
-    console.log(item);
-  });
-}
-
 function createli(val) {
   let li = document.createElement('li');
   li.innerHTML = `<li class="rent__box--${val} pXY-3">${information[val].title}</li>`;
@@ -27,6 +16,7 @@ function createli(val) {
   list.appendChild(li);
 }
 
+// Checking local storage
 function allStorage() {
   var values = [],
     keys = Object.keys(localStorage),
@@ -39,24 +29,28 @@ function allStorage() {
   return values;
 }
 
-listing(allStorage());
+createli(allStorage());
 
+// Creating content of the pop-up
 const inner = ({ title, idx }) => {
   txt.innerHTML = `
   <h2>${title}</h2>
+  <div class="rent__box--${idx} box pXY-2"></div>
   <ul>
-  <li>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
-  </p>
-  </li>
-  <li>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
-  </p>
-  </li>
-  <li>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia voluptatem fugiat tempora optio doloremque laudantium repellat voluptate, repudiandae provident eos?
-  </p>
-  </li>
+    <li>
+      <p>Capacity:</p>
+      <p>250</p>
+    </li>
+    <li>
+    <p>Available materials:</p>
+      </p>
+      <p>- chairs</p>
+      <p>- tables</p>
+      <p>- beamer</p>
+      <p>- projectionscreen</p>
+      <p>- sound</p>
+      <p>- lightsystem</p>
+    </li>
   </ul>
   <form>
   <button class="btn btn--primary mY-2 add" type="submit">Book</button>
@@ -69,6 +63,7 @@ const inner = ({ title, idx }) => {
   };
 };
 
+// Creating rent hall boxes
 information.map((item, idx) => {
   let div = document.createElement('div');
   div.setAttribute('class', `rent__box--${idx} box pXY-2`);

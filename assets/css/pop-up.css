@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.modal-content .modal-text > div{
+  height: 30rem;
+}
+
 /* The Close Button */
 .close {
   color: #aaaaaa;
