@@ -78,3 +78,14 @@ information.map((item, idx) => {
     .querySelector(`.myBtn${idx}`)
     .addEventListener('click', () => inner({ idx, ...item }));
 });
+
+// Style
+const buttonlist = document.getElementsByClassName('button')[0];
+const lists = document.getElementsByClassName('list')[0];
+
+buttonlist.addEventListener(
+  'mouseover',
+  () => (lists.style.maxHeight = '15rem')
+);
+
+buttonlist.addEventListener('mouseout', () => (lists.style.maxHeight = '0'));
