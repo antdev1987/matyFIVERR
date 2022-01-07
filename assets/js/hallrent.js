@@ -9,14 +9,19 @@ const information = [
   { title: 'THEDABCEROOM' },
 ];
 
+function listing(val) {
+  console.log(val);
+  val.map((item) => {
+    createli(item)
+  });
+}
+
 function createli(val) {
   let li = document.createElement('li');
   li.innerHTML = `<li class="rent__box--${val} pXY-3">${information[val].title}</li>`;
-
   list.appendChild(li);
 }
 
-// Checking local storage
 function allStorage() {
   var values = [],
     keys = Object.keys(localStorage),
@@ -29,7 +34,8 @@ function allStorage() {
   return values;
 }
 
-createli(allStorage());
+listing(allStorage());
+
 
 // Creating content of the pop-up
 const inner = ({ title, idx }) => {
