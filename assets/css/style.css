@@ -1,5 +1,6 @@
 .nav {
   border-bottom: 1px solid var(--primary);
+  background: var(--secondary);
 }
 
 .nav img {
@@ -189,6 +190,10 @@
 /* Books */
 
 /* Footer */
+
+.footer {
+  background: var(--secondary);
+}
 
 .footer .img-box {
   width: 20rem;
