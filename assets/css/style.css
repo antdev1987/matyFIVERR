@@ -1,6 +1,5 @@
 .nav {
   border-bottom: 1px solid var(--primary);
-  background: var(--secondary);
 }
 
 .nav img {
@@ -10,6 +9,7 @@
 .nav ul li a {
   color: var(--primary);
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .nav .active {
@@ -33,7 +33,7 @@
 /* Header */
 .header {
   background: url(../media/hero.jpg) center center / cover;
-  height: 100vh;
+  height: 70rem;
 }
 
 /* Events */
@@ -130,7 +130,6 @@
   background: url(../media/AbImage-2.jpg) center center / cover;
 }
 
-
 .weDo .box--3 {
   background: url(../media/AbImage-3.jpg) center center / cover;
 }
@@ -199,8 +198,6 @@
 /* Books */
 
 /* Footer */
-
-
 
 .footer {
   background: var(--secondary);
