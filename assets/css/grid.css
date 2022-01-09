@@ -4,8 +4,10 @@
   grid-auto-rows: 25rem;
 }
 
-.grid > div {
+.grid > .box {
   position: relative;
+  display: inline-block;
+  color: white;
 }
 
 .grid .span-2 {
