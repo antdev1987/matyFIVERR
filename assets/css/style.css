@@ -126,8 +126,17 @@
   background: url(../media/AbImage-1.jpg) center center / cover;
 }
 
+.weDo .box--2 {
+  background: url(../media/AbImage-2.jpg) center center / cover;
+}
+
+
 .weDo .box--3 {
   background: url(../media/AbImage-3.jpg) center center / cover;
+}
+
+.weDo .box--4 {
+  background: url(../media/AbImage-4.jpg) center center / cover;
 }
 
 .weDo .box--5 {
