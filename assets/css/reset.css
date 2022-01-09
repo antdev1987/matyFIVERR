@@ -30,6 +30,8 @@ body {
   background: var(--background);
   font-size: 1.6rem;
   position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 ul {
