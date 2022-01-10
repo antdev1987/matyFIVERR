@@ -194,8 +194,8 @@
   color: var(--primary);
   background: var(--accent);
   border: none;
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
   cursor: pointer;
 }

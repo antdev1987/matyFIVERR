@@ -94,8 +94,16 @@
   .header > .header__content {
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 60%;
     justify-content: center;
+  }
+
+  .header > .header__content .title {
+    font-size: 4rem;
+  }
+
+  .header > .header__content .title span {
+    margin-right: 9rem;
   }
 
   .events {
