@@ -40,6 +40,10 @@
   padding:5rem 0;
 }
 
+.header > .header__content .header__text {
+  padding-left: 10rem;
+}
+
 /* Events */
 .events {
   margin-top: -35rem;
