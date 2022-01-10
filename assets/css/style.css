@@ -22,7 +22,8 @@
   bottom: -2rem;
   left: 50%; /*center*/
   transform: translate(-50%, -50%); /*center*/
-  border-radius: 50%;
+  -webkit-clip-path: polygon(49% 0, 100% 49%, 48% 100%, 0 51%);
+  clip-path: polygon(49% 0, 100% 49%, 48% 100%, 0 51%);
   width: 0.8rem;
   height: 0.8rem;
   background: var(--accent);
@@ -37,10 +38,11 @@
 }
 
 .header > .header__content {
-  padding:5rem 0;
+  padding: 5rem 0;
 }
 
-.header > .header__content.container, #container-fix > .container {
+.header > .header__content.container,
+#container-fix > .container {
   max-width: 1200px;
 }
 /* Events */
