@@ -40,10 +40,9 @@
   padding:5rem 0;
 }
 
-.header > .header__content .header__text {
-  padding-left: 10rem;
+.header > .header__content.container {
+  max-width: 1000px;
 }
-
 /* Events */
 .events {
   margin-top: -35rem;

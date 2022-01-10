@@ -91,6 +91,10 @@
     height: 100vh;
   }
 
+  .container {
+    max-width: 1700px;
+  }
+
   .header > .header__content {
     display: flex;
     flex-direction: column;
