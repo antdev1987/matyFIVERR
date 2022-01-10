@@ -86,4 +86,19 @@
   body {
     max-width: 1900px;
   }
+
+  .header {
+    height: 100vh;
+  }
+
+  .header > .header__content {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+  }
+
+  .events {
+    margin-top: -48rem;
+  }
 }
