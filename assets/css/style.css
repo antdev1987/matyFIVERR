@@ -33,7 +33,11 @@
 /* Header */
 .header {
   background: url(../media/hero.jpg) center center / cover;
-  height: 70rem;
+  height: 80rem;
+}
+
+.header > .header__content {
+  padding:5rem 0;
 }
 
 /* Events */

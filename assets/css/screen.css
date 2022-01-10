@@ -1,3 +1,4 @@
+
 @media (max-width: 1000px) {
   html {
     font-size: 50%;
@@ -78,5 +79,11 @@
 @media (max-width: 400px) {
   html {
     font-size: 31.25%;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    max-width: 1900px;
   }
 }
