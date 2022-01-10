@@ -12,7 +12,7 @@ const information = [
 function listing(val) {
   console.log(val);
   val.map((item) => {
-    createli(item)
+    createli(item);
   });
 }
 
@@ -35,7 +35,6 @@ function allStorage() {
 }
 
 listing(allStorage());
-
 
 // Creating content of the pop-up
 const inner = ({ title, idx }) => {
@@ -71,17 +70,17 @@ const inner = ({ title, idx }) => {
 
 // Creating rent hall boxes
 information.map((item, idx) => {
-  let div = document.createElement('div');
-  div.setAttribute('class', `rent__box--${idx} box pXY-2`);
+  let div = document.createElement('a');
+  div.setAttribute('class', `rent__box--${idx} box box-pop pXY-2`);
   div.innerHTML = `
   <h3 class="content__text heading3">${item.title}</h3>
   <div class="content__more"> 
-    <button class="color-W heading3 myBtn${idx}" href="#" id="myBtn">take a look ></button>
+    <button class="color-W heading3" href="#" id="myBtn">take a look ></button>
   </div>`;
 
   root.appendChild(div);
   document
-    .querySelector(`.myBtn${idx}`)
+    .querySelector(`.rent__box--${idx}`)
     .addEventListener('click', () => inner({ idx, ...item }));
 });
 
