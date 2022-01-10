@@ -40,7 +40,7 @@
   padding:5rem 0;
 }
 
-.header > .header__content.container {
+.header > .header__content.container, #container-fix > .container {
   max-width: 1200px;
 }
 /* Events */
